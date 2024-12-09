@@ -2,7 +2,9 @@
 
 import Link from "next/link";
 
+
 export default function Home() {
+  
   return (
     <div id="main_container" className="px-6 py-12 flex flex-col lg:flex-row items-center lg:justify-between bg-gray-50 min-h-screen">
       <section id="details" className="lg:w-1/2 text-center lg:text-left">
