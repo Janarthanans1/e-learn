@@ -44,15 +44,15 @@ export default function Signup() {
                 setSuccess('')
                 return
             }
+            setName("");
+            setEmail("");
+            setPassword("");
+            setLoading(false)
             if(response.data.status===201){
                 setSuccess(response.data.message)
                 setError("")
                 return
             }
-            setName("");
-            setEmail("");
-            setPassword("");
-            setLoading(false)
         } catch (error) {
             console.error(error);
         } finally {
