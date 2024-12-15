@@ -6,7 +6,7 @@ import Link from "next/link";
 export default function Home() {
   
   return (
-    <div id="main_container" className="px-6 py-12 flex flex-col lg:flex-row items-center lg:justify-between  min-h-screen">
+    <div id="main_container" className="px-6 py-12 bg-color1 flex flex-col lg:flex-row items-center lg:justify-between  min-h-screen">
       <section id="details" className="lg:w-1/2 text-center lg:text-left">
         <h1 className="font-bold text-4xl lg:text-6xl tracking-wider text-white">Learn without<br />limits</h1>
         <p className="tracking-wider mt-6 text-white leading-relaxed text-justify">
